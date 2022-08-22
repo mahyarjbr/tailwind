@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    
+    @font-face {
+     font-family: "shabnam" ;
+     src: url('../fonts/Farsi-Digits/Shabnam-FD.eot');
+     src: url('../fonts/Farsi-Digits-Without-Latin/Shabnam-FD-WOL.eot') format('embedded-opentype'),
+     url('../fonts/Farsi-Digits-Without-Latin/Shabnam-FD-WOL.woff') format('woff'),
+     url('../fonts/Farsi-Digits-Without-Latin/Shabnam-FD-WOL.ttf') format('truetype');
+     font-weight: normal;
+   }
+ 
+ 
+ 
+  @font-face {
+   font-family: "shabnam";
+   src: url('../fonts/Farsi-Digits/Shabnam-Bold-FD.eot');
+   src: url('../fonts/Farsi-Digits/Shabnam-Bold-FD.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/Farsi-Digits/Shabnam-Bold-FD.woff') format('woff'),
+   url('../fonts/Farsi-Digits/Shabnam-Bold-FD.ttf') format('truetype');
+   font-weight: bold;
+ }
+ 
+ @font-face {
+   font-family: "shabnam";
+   src: url('../fonts/Shabnam-Light.eot');
+   src: url('../fonts/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/Shabnam-Light.woff') format('woff'),
+   url('../fonts/Shabnam-Light.ttf') format('truetype');
+   font-weight: 300;
+ }
+ 
+ body{
+     font-family:"shabnam";
+     direction:rtl;
+     font-size:16px;
+     position:relative;
+     
+ }
+ 
+ 
+ 
+ 
+ }
+ 
